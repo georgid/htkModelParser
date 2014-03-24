@@ -1,17 +1,23 @@
-This is a Python script that can convert HTK model files to S3 model files.
+This is a Python script that can parses a HTK model and enables opeartions with the models.
+Parses into a python class the HMM monophone models from htk. 
 
-The script was developed by W.J. Maaskant
+
+Operations:
+ - comparison of two different models for the same phoneme. by calculating euclidean distance between means of model. 
+@ file compare.compareModels.py
+ - visualize features: plots feature vectors can plot two features in the same plot. 
+@ file compare.visualize.py
+
+The script was developed originally by W.J. Maaskant
 (w.j.maaskant(at)student.utwente.nl) for Fraunhofer IAIS, Germany to perform
-a comparison of HTK, ISIP Prototype, Julius and HTK. For questions about
-Fraunhofer IAIS, please contact Joachim Koehler
-(joachim.koehler(at)iais.fraunhofer.de).
+a comparison of HTK, ISIP Prototype, Julius and HTK. 
+
+EDITED by Georgi Dzhambazov 
+georgi.dzhambazov@upf.edu 
+
 
 See the LICENSE file for the licensing terms.
 
-Thanks
-------
-Many thanks to David Huggins-Daines for providing detailed information about
-the S3 model file formats.
 
 Requirements
 ------------
