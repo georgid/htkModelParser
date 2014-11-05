@@ -11,12 +11,11 @@ import sys
 from sys import exit
 import time
 
-from ply import *
-
 import htk_lexer
 import htk_parser
 
 from htk_models import *
+from ply import yacc
 
 # Print time + text..
 def pr(text):
@@ -147,7 +146,8 @@ class HtkConverter(object):
 		badHmms = [hmm for hmm in self.hmms if hmm.tmat.numStates != self.hmms[0].tmat.numStates]
 		if len(badHmms) > 0:
 			names = " ".join([hmm.name for hmm in badHmms])
-			raise HtkConverterError('Transition matrix %s have different number of states than others. Such model can not be converted.' % (names))
+			print names
+# 			raise HtkConverterError('Transition matrix %s have different number of states than others. Such model can not be converted.' % (names))
 
 		# Check that all states have the same number of mixtures
 		# Check that all tmats have same number of states

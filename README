@@ -1,4 +1,4 @@
-This is a Python script that can parses a HTK model and enables opeartions with the models.
+This is a Python script that enables visualization opeartions with the models.
 Parses into a python class the HMM monophone models from htk. 
 
 

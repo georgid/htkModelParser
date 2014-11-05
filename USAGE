@@ -1,4 +1,5 @@
-Run convert.py. convert.py takes the following arguments:
+Run convert.py. 
+convert.py takes the following arguments:
 
 HMMDEFS
  The path to a file that contains all the HTK model definitions.
@@ -28,3 +29,7 @@ OUT_PATH
  ~/dir/prefix.var
  ~/dir/prefix.mixw
  ~/dir/prefix.tmat
+
+ The script was developed originally by W.J. Maaskant
+(w.j.maaskant(at)student.utwente.nl) for Fraunhofer IAIS, Germany to perform
+a comparison of HTK, ISIP Prototype, Julius and HTK. 
