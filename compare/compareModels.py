@@ -5,15 +5,14 @@ Created on Mar 24, 2014
 '''
 from htk_converter import HtkConverter
 from htk_models import Hmm
-from IPython.core.tests.test_formatters import numpy
 import matplotlib as plt
 from matplotlib.pyplot import plot
 from pylab import *
 from numpy.lib.utils import deprecate
 from Adapt import HMM_LIST
-from IPython.external.path._path import path
 import os.path
 import sys
+import numpy
 
 path_to_hmm_defs_before_adapt='/Users/joro/Documents/Phd/UPF/METUdata//model_output/hmmdefs_edited_for_wout'
 
