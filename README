@@ -24,6 +24,7 @@ Requirements
 The following Python modules are required:
 
 - PLY
+try: pip install ply
 
 This script was developed and tested on openSUSE 10.2.
 
