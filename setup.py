@@ -13,5 +13,6 @@ setup(name='htk-model-parser',
       description='modification of to package to load in python acoustic speech models created with htk. Forked from http://cmusphinx.sourceforge.net/2010/08/python-htk-converter/. Requires http://www.dabeaz.com/ply/ ',
       author='Georgi Dzhambazov',
       url='',
-      packages=['htkparser','compare' ]
+      packages=['htkparser','compare' ],
+      install_requires=['ply==3.4']
 )
